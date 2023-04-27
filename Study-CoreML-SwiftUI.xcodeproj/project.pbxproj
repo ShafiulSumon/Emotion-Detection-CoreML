@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844109BD29DA84780008069B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844109BC29DA84780008069B /* Extensions.swift */; };
 		846A659929D555F700F9514E /* Study_CoreML_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A659829D555F700F9514E /* Study_CoreML_SwiftUIApp.swift */; };
 		846A659B29D555F700F9514E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A659A29D555F700F9514E /* ContentView.swift */; };
 		846A659D29D555F800F9514E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846A659C29D555F800F9514E /* Assets.xcassets */; };
 		846A65A029D555F800F9514E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846A659F29D555F800F9514E /* Preview Assets.xcassets */; };
+		846A65A829D575DE00F9514E /* fer2013_mini_XCEPTION.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 846A65A729D575DE00F9514E /* fer2013_mini_XCEPTION.mlmodel */; };
+		846A65AA29D5780600F9514E /* VisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A65A929D5780600F9514E /* VisionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		844109BC29DA84780008069B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		846A659529D555F700F9514E /* Study-CoreML-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study-CoreML-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A659829D555F700F9514E /* Study_CoreML_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_CoreML_SwiftUIApp.swift; sourceTree = "<group>"; };
 		846A659A29D555F700F9514E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		846A659C29D555F800F9514E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846A659F29D555F800F9514E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		846A65A129D555F800F9514E /* Study_CoreML_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Study_CoreML_SwiftUI.entitlements; sourceTree = "<group>"; };
+		846A65A729D575DE00F9514E /* fer2013_mini_XCEPTION.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = fer2013_mini_XCEPTION.mlmodel; path = "../../../../Downloads/IBY-camera-light-mac/IBYVirtualCameraLightPlugin/fer2013_mini_XCEPTION.mlmodel"; sourceTree = "<group>"; };
+		846A65A929D5780600F9514E /* VisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				846A659829D555F700F9514E /* Study_CoreML_SwiftUIApp.swift */,
+				844109BC29DA84780008069B /* Extensions.swift */,
 				846A659A29D555F700F9514E /* ContentView.swift */,
+				846A65A929D5780600F9514E /* VisionManager.swift */,
+				846A65A729D575DE00F9514E /* fer2013_mini_XCEPTION.mlmodel */,
 				846A659C29D555F800F9514E /* Assets.xcassets */,
 				846A65A129D555F800F9514E /* Study_CoreML_SwiftUI.entitlements */,
 				846A659E29D555F800F9514E /* Preview Content */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844109BD29DA84780008069B /* Extensions.swift in Sources */,
 				846A659B29D555F700F9514E /* ContentView.swift in Sources */,
+				846A65AA29D5780600F9514E /* VisionManager.swift in Sources */,
 				846A659929D555F700F9514E /* Study_CoreML_SwiftUIApp.swift in Sources */,
+				846A65A829D575DE00F9514E /* fer2013_mini_XCEPTION.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
